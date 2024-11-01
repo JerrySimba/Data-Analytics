@@ -6,3 +6,4 @@ def execute_query(connection, query):
         print("connection was successful")
     except Error as err:
         print(f"Error: '{err}'")
+ 
